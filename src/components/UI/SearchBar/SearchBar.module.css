@@ -2,6 +2,8 @@
   width: 30rem;
   height: 3rem;
   background-color: #5d5d5d;
+  border: solid;
+  border-width: 2px;
   border-radius: 22px;
   border-color: #474747;
   padding: 0 1rem;
