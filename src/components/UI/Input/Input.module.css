@@ -5,7 +5,7 @@
 }
 
 .input label {
-  font-weight: bold;
+  color: #b2b2b2;
 }
 
 .input input {
@@ -17,5 +17,4 @@
   font: 16px;
   color: #fff;
   padding: 6px 10px;
-  width: 100%;
 }
