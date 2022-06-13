@@ -2,10 +2,12 @@
   display: flex;
   flex-direction: column;
   width: 28rem;
+  height: 4.2rem;
 }
 
 .input label {
   color: #b2b2b2;
+  margin-bottom: 2px;
 }
 
 .input input {
@@ -17,4 +19,5 @@
   font: 16px;
   color: #fff;
   padding: 6px 10px;
+  height: 100%;
 }

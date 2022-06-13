@@ -1,0 +1,34 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.username {
+  margin-bottom: 2rem;
+}
+
+.password {
+  margin-bottom: 2rem;
+}
+
+.container-btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-btns button {
+  background-color: #282828;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 11rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.container-btns button:hover {
+  background-color: #1d1d1d;
+}

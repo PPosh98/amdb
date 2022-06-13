@@ -1,18 +1,8 @@
 import "./App.css";
-import Input from "./components/UI/Input/Input";
-import Modal from "./components/UI/Modal/Modal";
+import LoginModal from "./components/Login/LoginModal";
 
 const App = () => {
-  return (
-    <Modal>
-      <Input
-        label="Label"
-        input={{
-          type: "text"
-        }}
-      />
-    </Modal>
-  );
+  return <LoginModal />;
 };
 
 export default App;

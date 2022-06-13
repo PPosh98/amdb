@@ -6,7 +6,10 @@ const Modal = (props) => {
   return (
     <Fragment>
       <div className={classes.backdrop}></div>
-      <div className={classes.modal}>{props.children}</div>
+      <div className={classes.modal}>
+        <button className={classes["btn-close-modal"]}>&times;</button>
+        {props.children}
+      </div>
     </Fragment>
   );
 };
