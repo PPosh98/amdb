@@ -1,8 +1,9 @@
 import "./App.css";
-import LoginModal from "./components/Login/LoginModal";
+
+import RegisterModal from "./components/Register/RegisterModal";
 
 const App = () => {
-  return <LoginModal />;
+  return <RegisterModal />;
 };
 
 export default App;

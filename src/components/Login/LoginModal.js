@@ -1,4 +1,5 @@
 import classes from "./LoginModal.module.css";
+
 import Modal from "../UI/Modal/Modal";
 import Input from "../UI/Input/Input";
 
@@ -8,14 +9,14 @@ const LoginModal = () => {
       <form>
         <h1>Login</h1>
         <Input
-          className={classes.username}
+          className={classes.input}
           label="Username"
           input={{
             type: "text"
           }}
         />
         <Input
-          className={classes.password}
+          className={classes.input}
           label="Password"
           input={{
             type: "password"
