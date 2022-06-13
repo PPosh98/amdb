@@ -1,17 +1,17 @@
 import "./App.css";
-import Card from "./components/UI/Card/Card";
 import Input from "./components/UI/Input/Input";
+import Modal from "./components/UI/Modal/Modal";
 
 const App = () => {
   return (
-    <Card>
+    <Modal>
       <Input
         label="Label"
         input={{
           type: "text"
         }}
       />
-    </Card>
+    </Modal>
   );
 };
 
