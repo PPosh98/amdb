@@ -1,8 +1,15 @@
 import "./App.css";
-import SearchBar from "./components/UI/SearchBar/SearchBar";
+import Input from "./components/UI/Input/Input";
 
 const App = () => {
-  return <SearchBar />;
+  return (
+    <Input
+      label="Label"
+      input={{
+        type: "text"
+      }}
+    />
+  );
 };
 
 export default App;
