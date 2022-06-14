@@ -7,7 +7,14 @@ h1 {
 }
 
 .input {
+  flex-direction: column;
+}
+
+.input input {
+  padding: 6px 10px;
   margin-bottom: 2rem;
+  height: 2rem;
+  width: 28rem;
 }
 
 .container-btns {

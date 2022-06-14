@@ -1,8 +1,5 @@
 .input {
   display: flex;
-  flex-direction: column;
-  width: 28rem;
-  height: 4.2rem;
 }
 
 .input label {
@@ -11,13 +8,12 @@
 }
 
 .input input {
-  all: unset;
+  /* all: unset; */
+  appearance: none;
   background-color: #201e1e;
   border: solid 1px;
   border-color: #0d0c0c;
   border-radius: 5px;
   font: 16px;
   color: #fff;
-  padding: 6px 10px;
-  height: 100%;
 }
