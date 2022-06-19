@@ -1,0 +1,14 @@
+.navlinks {
+  flex-basis: 70%;
+  list-style: none;
+  padding: 0;
+  /* margin-bottom: 4rem; */
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  color: rgb(168, 168, 168);
+  text-decoration: none;
+  transition: all 0.3s;
+}
