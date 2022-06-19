@@ -2,14 +2,17 @@ import classes from "./SearchBar.module.css";
 
 import searchIcon from "../../../icons/searchIcon.svg";
 
-const SearchBar = () => {
+const SearchBar = (props) => {
   return (
-    <form className={classes.searchbar}>
+    <form
+      autocomplete="off"
+      className={`${classes.searchbar} ${props.className}`}
+    >
       <input
         id="search-input"
         className={classes["search-input-field"]}
         type="search"
-        placeholder="Search here for a movie..."
+        placeholder="Search for a movie..."
       />
       <button className={classes["search-icon-btn"]}>
         <img className={classes["search-icon"]} src={searchIcon} />

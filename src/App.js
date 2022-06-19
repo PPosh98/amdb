@@ -1,9 +1,8 @@
 import "./App.css";
-import RefineResultsModal from "./components/Movies/RefineResultsModal/RefineResultsModal";
-import RegisterModal from "./components/Register/RegisterModal";
+import HomePage from "./components/Home/HomePage";
 
 const App = () => {
-  return <RefineResultsModal />;
+  return <HomePage />;
 };
 
 export default App;
